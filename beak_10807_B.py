@@ -1,4 +1,5 @@
-# 백준 10807번(2025.11.08 풀이, 다시풀기)
+# 백준 10807번
+# 2025.11.08 1회 풀이
 # 총 N개의 정수가 주어졌을 때, 정수 v가 몇 개인지 구하는 프로그램을 작성하시오.
 
 # 풀이 1
@@ -22,5 +23,6 @@ print(cnt)
 n = int(input())
 n_list = list(map(int, input().split()))
 v = int(input())
+
 
 print(n_list.count(v))
